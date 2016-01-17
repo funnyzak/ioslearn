@@ -27,6 +27,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)ABC:(id)sender {
+    NSLog(@"hello world");
+}
 
 /*
 #pragma mark - Navigation

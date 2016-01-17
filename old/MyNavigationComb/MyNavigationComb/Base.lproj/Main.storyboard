@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Bi7-oc-rh7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Bi7-oc-rh7">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Hei-FirstViewController-->
@@ -21,7 +21,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Fbg-9U-Qsr" kind="push" id="4jH-j5-3Fy"/>
+                                    <segue destination="Fbg-9U-Qsr" kind="push" id="Ojw-Yi-OOU"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -130,7 +130,11 @@
                                                 <action selector="doClick:" destination="lus-dk-CEj" id="aKU-3f-BlE"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="DY3-mI-ty1"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="DY3-mI-ty1">
+                                            <connections>
+                                                <action selector="ABC:" destination="lus-dk-CEj" id="HFL-Cd-AcO"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -272,7 +276,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="byj-ri-Ncc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-200.5" y="922.5"/>
+            <point key="canvasLocation" x="-258.5" y="850.5"/>
         </scene>
         <!--Hei-->
         <scene sceneID="rzq-Wh-TJy">

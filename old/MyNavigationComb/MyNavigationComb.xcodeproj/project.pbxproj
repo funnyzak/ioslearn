@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C1B5D911BBBAEB2003CF7F3 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1B5D901BBBAEB2003CF7F3 /* Reveal.framework */; settings = {ASSET_TAGS = (); }; };
+		6C1B5D911BBBAEB2003CF7F3 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1B5D901BBBAEB2003CF7F3 /* Reveal.framework */; };
 		6CA4959D1BB98AFD00C455F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4959C1BB98AFD00C455F3 /* main.m */; };
 		6CA495A01BB98AFD00C455F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4959F1BB98AFD00C455F3 /* AppDelegate.m */; };
 		6CA495A31BB98AFD00C455F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA495A21BB98AFD00C455F3 /* ViewController.m */; };
 		6CA495A61BB98AFD00C455F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495A41BB98AFD00C455F3 /* Main.storyboard */; };
 		6CA495A81BB98AFD00C455F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495A71BB98AFD00C455F3 /* Assets.xcassets */; };
 		6CA495AB1BB98AFD00C455F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495A91BB98AFD00C455F3 /* LaunchScreen.storyboard */; };
-		6CA495B41BB98CF700C455F3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA495B31BB98CF700C455F3 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
-		6CA495B71BB98EEF00C455F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA495B61BB98EEF00C455F3 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		6CA495BA1BB98EFB00C455F3 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA495B91BB98EFB00C455F3 /* ModalViewController.m */; settings = {ASSET_TAGS = (); }; };
-		6CA495C21BB9942A00C455F3 /* hei.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495BC1BB9942A00C455F3 /* hei.png */; settings = {ASSET_TAGS = (); }; };
-		6CA495C31BB9942A00C455F3 /* hei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495BD1BB9942A00C455F3 /* hei@2x.png */; settings = {ASSET_TAGS = (); }; };
-		6CA495C41BB9942A00C455F3 /* Ji.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495BE1BB9942A00C455F3 /* Ji.png */; settings = {ASSET_TAGS = (); }; };
-		6CA495C51BB9942A00C455F3 /* Ji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495BF1BB9942A00C455F3 /* Ji@2x.png */; settings = {ASSET_TAGS = (); }; };
-		6CA495C61BB9942A00C455F3 /* Liao.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495C01BB9942A00C455F3 /* Liao.png */; settings = {ASSET_TAGS = (); }; };
-		6CA495C71BB9942A00C455F3 /* Liao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495C11BB9942A00C455F3 /* Liao@2x.png */; settings = {ASSET_TAGS = (); }; };
-		6CA495C91BB9944D00C455F3 /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495C81BB9944D00C455F3 /* provinces_cities.plist */; settings = {ASSET_TAGS = (); }; };
+		6CA495B41BB98CF700C455F3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA495B31BB98CF700C455F3 /* FirstViewController.m */; };
+		6CA495B71BB98EEF00C455F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA495B61BB98EEF00C455F3 /* DetailViewController.m */; };
+		6CA495BA1BB98EFB00C455F3 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA495B91BB98EFB00C455F3 /* ModalViewController.m */; };
+		6CA495C21BB9942A00C455F3 /* hei.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495BC1BB9942A00C455F3 /* hei.png */; };
+		6CA495C31BB9942A00C455F3 /* hei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495BD1BB9942A00C455F3 /* hei@2x.png */; };
+		6CA495C41BB9942A00C455F3 /* Ji.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495BE1BB9942A00C455F3 /* Ji.png */; };
+		6CA495C51BB9942A00C455F3 /* Ji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495BF1BB9942A00C455F3 /* Ji@2x.png */; };
+		6CA495C61BB9942A00C455F3 /* Liao.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495C01BB9942A00C455F3 /* Liao.png */; };
+		6CA495C71BB9942A00C455F3 /* Liao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495C11BB9942A00C455F3 /* Liao@2x.png */; };
+		6CA495C91BB9944D00C455F3 /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CA495C81BB9944D00C455F3 /* provinces_cities.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
